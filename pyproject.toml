@@ -1,0 +1,11 @@
+[tool.black]
+skip-string-normalization = true
+line-width = 88
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py313"
+
+[tool.ruff.format]
+quote-style = "single"

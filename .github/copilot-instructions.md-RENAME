@@ -1,0 +1,40 @@
+# Instructions for Copilot
+
+## Instructions for writing Python code
+
+### Packages
+
+- Assume that the packages NumPy, SciPy, and Matplotlib are available for use in the implementation of the code.
+
+### Coding style and conventions
+
+- Add NumPy-style docstrings to all functions you write, describing the purpose of the function, its parameters, and its return value.
+- Follow PEP 8 style guidelines for Python code, including naming conventions, indentation, and line length.
+- Use single quotes for string literals, and double quotes for docstrings.
+- If the Ruff formatter is available, use it to format the code.
+
+### Plotting
+
+- When plotting with Matplotlib, save the output figures in PDF format.
+- Save figures in the same directory as the code file, with descriptive filenames that indicate what is being plotted (e.g., `expected_utility_plot.pdf`).
+
+### Vectorization
+
+- Use vectorized NumPy operations if possible, but restrict vectorization to one dimension. Don't create hard-to-read code that involves np.meshgrid() or similar concepts, but instead use loops for the remaining dimensions.
+
+### Running the code
+
+- All Python code should be run using the Anaconda environment FIE463 to ensure that all relevant packages are available.
+- DO NOT attempt to create the Anaconda environment or install packages yourself. Assume that the environment is already set up and ready to use.
+
+### Git & GitHub
+
+- DO NOT attempt to interact with the git repository in any way other than read-only operations, unless specifically asked to do so.
+- DO NOT interact with GitHub (e.g., via the MCP server) unless specifically asked to do so.
+
+
+## Language
+
+- Use US English spelling and grammar.
+- Use the Oxford comma when listing items in a sentence.
+- Prefer bullet points with short sentences over long paragraphs in docstrings.
